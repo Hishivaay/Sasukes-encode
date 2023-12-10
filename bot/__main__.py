@@ -151,7 +151,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & filters.command(["compress", f"compress@{BOT_USERNAME}"]))
     async def help_message(app, message):
         if message.chat.id not in AUTH_USERS:
-            return await message.reply_text("You are not authorised to use this bot contact @TheBatmanShan")
+            return await message.reply_text("You are not authorised to use this bot contact @NUMBER03ANURAG")
         query = await message.reply_text("ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ...\nᴘʟᴇᴀsᴇ ʙᴇ ᴘᴀᴛɪᴇɴᴛ ʏᴏᴜ ᴇɴᴄᴏᴅᴇ ᴡɪʟʟ sᴛᴀʀᴛ sᴏᴏɴ", quote=True)
         data.append(message.reply_to_message)
         if len(data) == 1:
@@ -173,7 +173,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & (filters.video | filters.document))
     async def help_message(app, message):
         if message.chat.id not in AUTH_USERS:
-            return await message.reply_text("You are not authorised to use this bot contact @TheBatmanShan")
+            return await message.reply_text("You are not authorised to use this bot contact @NUMBER03ANURAG")
         query = await message.reply_text("ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ...\nᴘʟᴇᴀsᴇ ʙᴇ ᴘᴀᴛɪᴇɴᴛ ʏᴏᴜ ᴇɴᴄᴏᴅᴇ ᴡɪʟʟ sᴛᴀʀᴛ sᴏᴏɴ", quote=True)
         data.append(message)
         if len(data) == 1:
@@ -183,7 +183,7 @@ if __name__ == "__main__" :
     @app.on_message(filters.incoming & (filters.photo))
     async def help_message(app, message):
         if message.chat.id not in AUTH_USERS:
-            return await message.reply_text("You are not authorised to use this bot contact @NINJA_NARUTO_SAK_2")
+            return await message.reply_text("You are not authorised to use this bot contact @NUMBER03ANURAG")
         os.system('rm thumb.jpg')
         await message.download(file_name='/app/thumb.jpg')
         await message.reply_text('Thumbnail Added')
@@ -207,7 +207,7 @@ if __name__ == "__main__" :
    
     @app.on_message(filters.incoming & filters.command(["help", f"help@{BOT_USERNAME}"]))
     async def help_message(app, message):
-        await message.reply_text("Hi, I am <b>Video Encoder bot</b>\n\n➥ Send me your telegram files\n➥ I will encode them one by one as I have <b>queue feature</b>\n➥ Just send me the jpg/pic and it will be set as your custom thumbnail \n➥ For ffmpeg lovers - u can change crf by /eval crf.insert(0, 'crf value')\n➥ Contact ☆ @Sensei_Rimuru \n\n🏷<b>Maintained By : @Anime_Sensei_Network t</b>", quote=True)
+        await message.reply_text("𝙃𝙄, 𝙈𝙖𝙞 𝙚𝙠 <b>𝙫𝙞𝙙𝙚𝙤 𝙚𝙣𝙘𝙤𝙙𝙚𝙧 𝙗𝙤𝙩 𝙝𝙪𝙣</b>\n\n➥ 𝙏𝙪 𝙗𝙖𝙖𝙨 𝙛𝙞𝙡𝙚 𝙗𝙝𝙚𝙟 𝙈𝙪𝙟𝙝𝙚\n➥ 𝗠𝗮𝗶 𝘂𝘀𝗸𝗮 𝘀𝗶𝘇𝗲 𝗞𝗮𝗺 𝗸𝗮𝗿𝗸𝗲 𝗱𝘂𝗻𝗴𝗮 <b>queue feature</b>\n➥ 𝘼𝙣𝙙 𝙨𝙪𝙣 𝙩𝙪 𝙢𝙪𝙟𝙝𝙚 𝙅𝙤 𝙗𝙝𝙞 𝙥𝙞𝙘 𝙗𝙝𝙚𝙟𝙚𝙜𝙖 𝙤𝙤 𝙙𝙚𝙛𝙖𝙪𝙡𝙩 𝙩𝙝𝙪𝙢𝙗 𝙝𝙤 𝙟𝙖𝙮𝙚𝙜𝙖 𝙖𝙡𝙡 𝙩𝙚𝙧𝙚 𝙛𝙞𝙡𝙚 𝙥𝙚 \n➥ For ffmpeg lovers - u can change crf by /eval crf.insert(0, 'crf value')\n➥ Contact ☆ @𝗡𝗨𝗠𝗕𝗘𝗥𝟬𝟯𝗔𝗡𝗨𝗥𝗔𝗚 \n\n🏷<b>Maintained By : @𝘼𝙣𝙞𝙢𝙚𝙓_𝙃𝙤𝙧𝙞𝙯𝙤𝙣 t</b>", quote=True)
   
     @app.on_message(filters.incoming & filters.command(["log", f"log@{BOT_USERNAME}"]))
     async def help_message(app, message):
