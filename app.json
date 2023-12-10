@@ -29,12 +29,12 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "29177249",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "f1c8d021f35a8a0391325bda480e30ad",
       "required": true
     },
     "BOT_USERNAME": {
@@ -44,12 +44,12 @@
     },
     "LOG_CHANNEL": {
       "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
-      "value": "",
+      "value": "ANUxEncode",
       "required": true
     },
     "AUTH_USERS": {
       "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
-      "value": "1666551439",
+      "value": "5910975386 6210050767 6263157611 6015466432 5881613383",
       "required": true
     }
   },
