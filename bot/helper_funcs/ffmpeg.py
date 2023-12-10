@@ -43,11 +43,11 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
     ##"-metadata", "title=@AnimeX_Horizon", "-vf", "drawtext=fontfile=njnaruto.ttf:fontsize=20:fontcolor=black:x=15:y=15:text=" "AnimeX_Horizon",
      ## -vf eq=gamma=1.4:saturation=1.4
      ## lol 😂
-    crf.append("25")
+    crf.append("24")
     codec.append("libx264")
-    resolution.append("1280x720")
+    resolution.append("1920x1080")
     preset.append("veryfast")
-    audio_b.append("96k")
+    audio_b.append("128k")
     watermark.append('')
     file_genertor_command = f"ffmpeg -hide_banner -loglevel quiet -progress '{progress}' -i '{video_file}' -metadata 'title=Encoded by [@AnimeX_Horizon]' -c:v {codec[0]}  -map 0 -crf {crf[0]} -c:s copy -pix_fmt yuv420p -s {resolution[0]} -b:v 150k -c:a libopus -b:a {audio_b[0]} -preset {preset[0]} -metadata:s:a 'title=AnimeX_Horizon' -metadata:s:s 'title=AnimeX_Horizon' '{out_put_file_name}' -y"
  #Done !!
