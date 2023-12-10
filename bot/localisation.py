@@ -13,19 +13,19 @@ class Localisation:
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     
     
-    DOWNLOAD_START = "⚡ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ...\n"
+    DOWNLOAD_START = "🔻 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜.....\n"
     
-    UPLOAD_START = "⚡ ᴜᴘʟᴏᴀᴅɪɴɢ ...\n"
+    UPLOAD_START = "🔺 𝙐𝙥𝙡𝙤𝙖𝙙𝙞𝙣𝙜.....\n"
     
-    COMPRESS_START = "⚡ ᴛʀʏɪɴɢ ᴛᴏ ᴇɴᴄᴏᴅᴇ ..."
+    COMPRESS_START = "❄️ 𝙏𝙧𝙮𝙞𝙣𝙜 𝙩𝙤 𝙀𝙣𝙘𝙤𝙙𝙚....."
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "ᴇɴᴄᴏᴅᴇᴅ ʙʏ [@Anime_Sensei_Network]"
+    COMPRESS_SUCCESS = "𝙀𝙣𝙘𝙤𝙙𝙚𝙙 𝘽𝙮 :- [@𝘼𝙉𝙄𝙈𝙀𝙭_𝙃𝙊𝙍𝙄𝙕𝙊𝙉].mkv"
 
-    COMPRESS_PROGRESS = "🕛 ETA: {} ♻️ Progress: {}%"
+    COMPRESS_PROGRESS = "🕛 ETA: {} 🚨 Progress: {}%"
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     
