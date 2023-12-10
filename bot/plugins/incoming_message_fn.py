@@ -36,7 +36,7 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, Usern
 #from bot.helper_funcs.utils import(
 #  delete_downloads
 #)
-os.system("wget https://te.legra.ph/file/86e958f9fc0d7cbdf1a28.jpg -O thumb.jpg")
+os.system("wget https://graph.org/file/a087f6282a556dee71437.jpg -O thumb.jpg")
 
 #LOGS_CHANNEL = -1001283278354
 CURRENT_PROCESSES = {}
@@ -77,7 +77,7 @@ async def incoming_start_message_f(bot, update):
     #    except Exception:
      #       await bot.send_message(
       #          chat_id=update.chat.id,
-       #         text="Something went Wrong. Contact my [Boss](https://t.me/Nur0ns).",
+       #         text="Something went Wrong. Contact my [Boss](https://t.me//NUMBER03ANURAG).",
         #        parse_mode="markdown",
          #       disable_web_page_preview=True)
           #  return
@@ -87,7 +87,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Channel', url='https://t.me/Anime_Sensei_Network')
+                    InlineKeyboardButton('Channel', url='https://t.me/ANIMEX_HORIZON')
                 ]
             ]
         ),
@@ -200,7 +200,7 @@ async def incoming_compress_message_f(update):
   bst_now = utc_now + datetime.timedelta(minutes=00, hours=6)
   bst = bst_now.strftime("%d/%m/%Y, %H:%M:%S")
   now = f"\n{ist} (GMT+05:30)`\n`{bst} (GMT+06:00)"
-  download_start = await bot.send_message(chat_id, f"**Bot Become Busy Now !!** \n\nDownload Started at `{now}`", parse_mode="markdown")
+  download_start = await bot.send_message(chat_id, f"**BOT KE LAUDE LAGNA CHALU !!** \n\nDownload Started at `{now}`", parse_mode="markdown")
   try:
       d_start = time.time()
       status = DOWNLOAD_LOCATION + "/status.json"
@@ -238,7 +238,7 @@ async def incoming_compress_message_f(update):
           bst_now = utc_now + datetime.timedelta(minutes=00, hours=6)
           bst = bst_now.strftime("%d/%m/%Y, %H:%M:%S")
           now = f"\n{ist} (GMT+05:30)`\n`{bst} (GMT+06:00)"
-          await bot.send_message(chat_id, f"**Download Stopped, Bot is Free Now !!** \n\nProcess Done at `{now}`", parse_mode="markdown")
+          await bot.send_message(chat_id, f"**Download Stopped, BOT IS FREE NOW AB GAND MARO !!** \n\nProcess Done at `{now}`", parse_mode="markdown")
           await download_start.delete()
         except:
           pass
