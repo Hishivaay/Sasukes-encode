@@ -77,7 +77,7 @@ async def incoming_start_message_f(bot, update):
     #    except Exception:
      #       await bot.send_message(
       #          chat_id=update.chat.id,
-       #         text="Something went Wrong. Contact my [Boss](https://t.me//NUMBER03ANURAG).",
+       #         text="Something went Wrong. Contact my [Boss](https://t.me//AnoxSama).",
         #        parse_mode="markdown",
          #       disable_web_page_preview=True)
           #  return
@@ -87,7 +87,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Channel', url='https://t.me/ANIMEX_HORIZON')
+                    InlineKeyboardButton('Channel', url='https://t.me/Anime_State')
                 ]
             ]
         ),
